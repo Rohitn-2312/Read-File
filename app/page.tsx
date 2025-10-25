@@ -33,13 +33,10 @@ export default function Home() {
               height={16}
               priority
             />
-            <h1 className="text-2xl font-semibold text-white dark:text-zinc-50">
-              Home
-            </h1>
           </div>
         </div>
 
-        <section className="w-full mt-8">
+        <section className="w-full mb-24">
           <h2 className="text-lg font-medium mb-3 text-zinc-200">
             Contents of App.test.js
           </h2>
@@ -47,11 +44,6 @@ export default function Home() {
             {content}
           </pre>
         </section>
-
-        <footer className="w-full mt-8 text-sm text-zinc-600 dark:text-zinc-400">
-          This reads the file from the server using Node fs and renders it on
-          the page.
-        </footer>
       </main>
     </div>
   );
